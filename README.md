@@ -2,4 +2,7 @@ This is the repo for the book [Advances in Financial Machine Learning](https://w
 
 ## Content
 
-The repo will contain all the exercises from the book
+The repo will contain all the exercises from the book. The repo is organized by chapter, every chapter is a folder with their own requirements.
+Every chapter will have a python notebook for the exercise. The implementation will be contained in a python module in the folder that the notebook will import.
+
+I build the repo in such a way that can be used as a python package, so every chapter can also be seen as a submodule of the python package.
